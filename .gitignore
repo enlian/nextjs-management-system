@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/yarn.lock
+/.idea/vcs.xml
+/.idea/nextjs-management-system.iml
+/.idea/modules.xml
+/.idea/.gitignore
