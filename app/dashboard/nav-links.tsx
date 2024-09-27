@@ -14,6 +14,7 @@ import clsx from 'clsx';
 export default function NavLinks() {
     const pathname = usePathname();
 
+    let links;
     return (
         <>
             {links.map((link) => {
