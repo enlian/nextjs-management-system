@@ -1,5 +1,5 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
-
+export const experimental_ppr = true; //实现部分预渲染
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
