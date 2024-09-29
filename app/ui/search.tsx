@@ -11,8 +11,8 @@ export default function Search({ placeholder }: { placeholder: string }) {
 
     //防抖,仅在用户停止输入后的特定时间（300 毫秒）运行代码
     const handleSearch = useDebouncedCallback((term) => {
-        console.log(`Searching... ${term}`);
         const params = new URLSearchParams(searchParams);
+        params.set('page', '1');
         if (term) {
             params.set('query', term);
         } else {
